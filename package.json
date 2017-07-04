@@ -1,0 +1,25 @@
+{
+  "name": "topcursos",
+  "version": "1.0.0",
+  "description": "Site com links de cursos free selecionados da internet",
+  "main": "index.js",
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "bootstrap": "^4.0.0-alpha.6",
+    "font-awesome": "^4.7.0"        
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagofranchin/topcursos.git"
+  },
+  "author": "Thiago Franchin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagofranchin/topcursos/issues"
+  },
+  "homepage": "https://github.com/thiagofranchin/topcursos#readme"
+}
