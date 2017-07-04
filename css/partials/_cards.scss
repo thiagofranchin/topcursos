@@ -1,0 +1,31 @@
+.card { 
+    border-radius: 0px;
+    &:hover {
+        opacity: 0.7;
+    }
+}
+@mixin cardColor($color){
+    background-color: $color;
+    border-color: $color;
+}
+
+.card-angular       { @include cardColor($color-angular); }
+.card-bootstrap     { @include cardColor ($color-bootstrap); }
+.card-github        { @include cardColor ($color-github); }
+.card-javascript    { @include cardColor ($color-javascript); }
+.card-magento       { @include cardColor ($color-magento); }
+.card-node          { @include cardColor ($color-node); }
+.card-php           { @include cardColor ($color-php); }
+.card-prestashop    { @include cardColor ($color-prestashop); }
+.card-python        { @include cardColor ($color-python); }
+.card-reactjs       { @include cardColor ($color-reactjs); }
+.card-reactNative   { @include cardColor ($color-reactNative); }
+.card-webpack       { @include cardColor ($color-webpack); }
+.card-woocommerce   { @include cardColor ($color-woocommerce); }
+.card-wordpress   { @include cardColor ($color-wordpress); }
+
+
+h6 {
+    margin-top: -10px;
+    margin-bottom: 15px;
+}

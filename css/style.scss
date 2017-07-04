@@ -1,0 +1,101 @@
+// sass --watch css/style.scss:css/style.min.css --style compressed
+
+@import 'partials/colors';
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import '../node_modules/font-awesome/scss/font-awesome';
+@import 'partials/cards';
+@import 'partials/hr';
+
+
+
+body.cursos { background-color: #2F343B;
+    background-image: url("../images/stars.jpg");
+    background-attachment: fixed;
+    // background-size: cover; 
+    background-position-x: -600px;
+    background-position-y: -600px;
+    animation: flyspace 30s infinite alternate;
+    animation-timing-function: ease-out;
+ }
+
+@keyframes flyspace {
+    10%  {
+        background-position-x: -500px;
+        background-position-y: -500px;
+    }
+    100% {
+        background-position-x: -0px;
+        background-position-y: -0px;
+    }                        
+}
+
+button { cursor: pointer; }
+
+.jumbotron {
+    margin-bottom: 0;
+    background: none !important;
+    // background-color: rgba(47, 52, 59, 0.51);
+    color: lighten($blue, 25%);
+    border-radius: 0;
+    hr {
+        box-shadow: 0 0 10px $blue;
+        margin: 10px 0 !important;
+    }
+    // .superline {
+    //     width: 100%;
+    //     height: 3px;
+    //     background: #1e5799;
+    //     background: -moz-linear-gradient(left, #1e5799 0%, #30ffff 7%, #207cca 10%, #7db9e8 100%);
+    //     background: -webkit-linear-gradient(left, #1e5799 0%,#30ffff 7%,#207cca 10%,#7db9e8 100%);
+    //     background: linear-gradient(to right, #1e5799 0%,#30ffff 7%,#207cca 10%,#7db9e8 100%);
+    //     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+    // }
+    
+    .jumbotron-title {        
+        text-shadow: 0px 0px 5px $teal;        
+        font-size: 72px;
+        background: -webkit-linear-gradient($blue, $teal);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        // animation-name: example;
+        // animation-duration: 4s;
+        // animation-iteration-count: 3;
+        // animation-iteration-count: infinite;
+        // animation-direction: reverse;
+        animation: superline 1s ease-out infinite alternate;
+    }
+
+
+    @keyframes superline {
+        25%  {text-shadow: 0px 0px 7px $teal;}
+        50%  {text-shadow: 0px 0px 9px $teal;}
+        100% {text-shadow: 0px 0px 11px lighten($teal, 10%);}                    
+    }
+
+    .name-user {
+        color: $red;
+        text-shadow: 0px 0px 5px lighten($red, 15%);
+    }
+}
+
+.index-page {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(../images/bg-login.png);
+    background-size: cover; 
+
+    .formulario{
+        width: 360px;
+        margin: 0 auto;
+        .box-form {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 40px 25px 40px 25px;
+            margin-top: 40px;
+            border-radius: 3px;
+            margin-top: 100px;
+        }
+    }
+}

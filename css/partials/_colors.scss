@@ -1,0 +1,40 @@
+$color-angular: #B52E32;
+$color-bootstrap: #59407F;
+$color-github: #B46759;
+$color-javascript: #e89d51;
+$color-magento: #E66E17;
+$color-node: #92C449;
+$color-php: #777BB3;
+$color-prestashop: #DE006E;
+$color-python: #3674A5;
+$color-reactjs: #06476D;
+$color-reactNative: #01A7D6;
+$color-webpack: #6F95DB;
+$color-woocommerce: #9B5C8F;
+$color-wordpress: #21759A;
+
+$white:  #ecf0f1 !default;
+$black:  #2c3e50 !default;
+$red:    #c0392b !default;
+$orange: #f39c12 !default;
+$yellow: #f1c40f !default;
+$green:  #27ae60 !default;
+$blue:   #2980b9 !default;
+$teal:   #3498db !default;
+$pink:   #e74c3c !default;
+$purple: #8e44ad !default;
+
+// Create grayscale
+$gray-dark:                 #292b2c !default;
+$gray:                      #7f8c8d !default;
+$gray-light:                #95a5a6 !default;
+$gray-lighter:              #bdc3c7 !default;
+$gray-lightest:             #f7f7f9 !default;
+
+// Reassign color vars to semantic color scheme
+$brand-primary:             $green !default;
+$brand-success:             $blue !default;
+$brand-info:                $teal !default;
+$brand-warning:             $orange !default;
+$brand-danger:              $red !default;
+$brand-inverse:             $gray-dark !default;
