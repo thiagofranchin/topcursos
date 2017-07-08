@@ -18,7 +18,7 @@ $nomeCompleto = $nomeUsuario[0];
 
   <link rel="stylesheet" href="css/style.min.css"> </head>
 
-<body class=cursos">
+<body class="cursos">
   <!-- HEADER -->
   <header>
     <div class="jumbotron">
@@ -297,11 +297,28 @@ $nomeCompleto = $nomeUsuario[0];
             <a href="https://www.youtube.com/playlist?list=PLGoNvruYZ-YzvMOv2YrK3_zaXejHYc5zJ" target="_blank" class="btn btn-outline-secondary">Link</a>
           </div>
         </div>
+
+        <div class="animated zoomInUp card w-25 card-inverse card-github">
+          <div class="card-block">
+            <h3 class="card-title">Git e Github para iniciantes</h3>
+            <h6>Willian Justen</h6>
+            <small>
+              PRÉ-REQUISITO: Não há pré-requisitos para fazer esse curso.
+            </small>
+            <p class="card-text mt-2">Nesse curso iremos aprender como utilizar o Git em nossos projetos e como fazer a ligação do mesmo com o Github.</p>
+            <ul>
+              <li>  Saber a história do Git.</li>
+              <li>Como configurar o Git e seus comandos básicos.</li>
+              <li>Como trabalhar com diferentes branches num projeto.</li>
+              <li>Como trabalhar com repositórios remotos no Github.</li>
+            </ul>
+            <a href="https://www.udemy.com/git-e-github-para-iniciantes" target="_blank" class="btn btn-outline-secondary">Link</a>
+          </div>
+        </div>
         
       </div>
     </div>
   </section>
-
 
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <script src="node_modules/tether/dist/js/tether.min.js"></script>
