@@ -22,8 +22,8 @@
 .card-reactNative   { @include cardColor ($color-reactNative); }
 .card-webpack       { @include cardColor ($color-webpack); }
 .card-woocommerce   { @include cardColor ($color-woocommerce); }
-.card-wordpress   { @include cardColor ($color-wordpress); }
-
+.card-wordpress     { @include cardColor ($color-wordpress); }
+.card-jekyll        { @include cardColor ($color-jekyll); }
 
 h6 {
     margin-top: -10px;

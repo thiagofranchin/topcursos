@@ -314,7 +314,43 @@ $nomeCompleto = $nomeUsuario[0];
             </ul>
             <a href="https://www.udemy.com/git-e-github-para-iniciantes" target="_blank" class="btn btn-outline-secondary">Link</a>
           </div>
+        </div>        
+
+        <div class="animated zoomInUp card w-25 card-inverse card-github">
+          <div class="card-block">
+            <h3 class="card-title">Git e contribuições para projetos Open Source</h3>
+            <small>
+              PRÉ-REQUISITO: Não há pré-requisitos para fazer esse curso.
+            </small>
+            <p class="card-text mt-2">Você aprenderá os fundamentos básicos sobre Controle de Versão e como usar Git para realizar o controle de versão. Também aprenderá a contribuir com projetos no GitHub e a trabalhar em equipe usando Git.</p>
+            <a href="Git e contribuições para projetos Open Source" target="_blank" class="btn btn-outline-secondary">Link</a>
+          </div>
         </div>
+
+        <div class="animated zoomInUp card w-25 card-inverse card-jekyll">
+          <div class="card-block">
+            <h3 class="card-title">Criando sites estáticos com Jekyll</h3>
+            <h6>Willian Justen</h6>
+            <small>
+              PRÉ-REQUISITO: Conhecimentos básicos de HTML e CSS.
+            </small>
+            <p class="card-text mt-2">Nesse curso você irá aprender o básico para se iniciar um site com o Jekyll, passando desde como o Jekyll funciona, sua instalação e como editá-lo. No final, iremos subir nossa aplicação direto no Github Pages e vê-la no ar.</p>
+            <ul>
+              <li>O que são geradores estáticos</li>
+              <li>Instalar o Jekyll</li>
+              <li>Comandos básicos do Jekyll</li>
+              <li>Sistema de Arquivos e Templates do Jekyll</li>
+              <li>Criar Blog Simples</li>
+              <li>Criar Links Amigáveis (Permalinks)</li>
+              <li>Adicionar comentários em Posts</li>
+              <li>Hospedar no Github Pages</li>
+            </ul>
+            <a href="https://www.udemy.com/criando-sites-estaticos-com-jekyll/" target="_blank" class="btn btn-outline-secondary">Link</a>
+          </div>
+        </div>
+
+
+
         
       </div>
     </div>
